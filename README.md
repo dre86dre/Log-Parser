@@ -44,3 +44,9 @@ Run the parser on a log file:
 ```bash
 ./log_parser.py /var/log/auth.log
 ```
+
+Or with Python explicitly:
+
+```bash
+python3 log_parser.py /var/log/auth.log
+```
