@@ -74,3 +74,13 @@ Time                 Service  User        Source           Reason
 2025-09-17T12:08:15  sudo     user1       localhost        pam authentication failure
 2025-09-17T12:10:22  sshd     guest       198.51.100.77    failed password (invalid user)
 ```
+
+---
+
+## 🔒 Permissions
+
+- Reading `/var/log/auth.log` may require `sudo`:
+
+```bash
+sudo ./log_parser.py /var/log/auth.log
+```
