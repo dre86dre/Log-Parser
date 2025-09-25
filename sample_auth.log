@@ -1,0 +1,6 @@
+Sep 17 12:03:21 myserver sshd[24567]: Failed password for root from 192.168.1.45 port 55234 ssh2
+Sep 17 12:05:10 myserver sshd[24589]: Invalid user admin from 203.0.113.5 port 34567
+Sep 17 12:06:42 myserver sshd[24612]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.1 user=tester
+Sep 17 12:08:15 myserver sudo: pam_unix(sudo:auth): authentication failure; logname=user1 uid=1000 euid=0 tty=/dev/pts/0 ruser= rhost=  user=user1
+Sep 17 12:10:22 myserver sshd[24644]: Failed password for invalid user guest from 198.51.100.77 port 40123 ssh2
+Sep 17 12:12:55 myserver sshd[24655]: Accepted password for alice from 10.0.0.5 port 2222 ssh2
