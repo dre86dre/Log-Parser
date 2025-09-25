@@ -84,3 +84,7 @@ Time                 Service  User        Source           Reason
 ```bash
 sudo ./log_parser.py /var/log/auth.log
 ```
+
+## 📜 License
+
+MIT License. See LICENSE for details.
