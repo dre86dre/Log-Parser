@@ -31,3 +31,16 @@ Clone this repository:
 ```bash
 git clone https://github.com/yourusername/log-parser.git
 cd log-parser
+```
+
+Make the script executable:
+
+```bash
+chmod +x log_parser.py
+```
+
+Run the parser on a log file:
+
+```bash
+./log_parser.py /var/log/auth.log
+```
