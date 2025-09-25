@@ -87,4 +87,4 @@ sudo ./log_parser.py /var/log/auth.log
 
 ## 📜 License
 
-MIT License. See LICENSE for details.
+MIT License. See [LICENSE]() for details.
